@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8282295125306685",
+    enable_page_level_ads: true
+  });
+</script>
     <title>How to make truly private attributes in Python objects</title>
     <link rel="stylesheet" href="../libs/highlight/styles/default.css">
     <script src="../libs/highlight/highlight.pack.js"></script>
@@ -10,7 +17,8 @@
     <h1>How to make truly private attributes in Python objects</h1>
 <p>A colleague, coming from C#, asked me, <i>"how can you make an attribute truly private in Python?"</i> I think it's almost never necessary.</p>
 
-<p>I thought a case where it could be necessary: Imagine you want to create an user object, with username and password, and you want to be able to check if a password is valid, but you do want it to be unaccessible (maybe you'll pass this object to another program which code you don't control.) That's how I would do it:</p>
+<p>I thought a case
+ where it could be necessary: Imagine you want to create an user object, with username and password, and you want to be able to check if a password is valid, but you do want it to be unaccessible (maybe you'll pass this object to another program which code you don't control.) That's how I would do it:</p>
 
 <pre><code class="python">
 import hashlib
