@@ -1,12 +1,5 @@
 <html>
 <head>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-8282295125306685",
-    enable_page_level_ads: true
-  });
-</script>
 <title>Favorite algorithms to "hello world" a language</title>
 <link rel="stylesheet" href="../libs/highlight/styles/default.css">
 <script src="../libs/highlight/highlight.pack.js"></script>
@@ -45,10 +38,10 @@ def fibonacci(n):
 <pre><code class="python">
 class Fibonacci(object):
 	_cache = { 0: 0, 1: 1 }
-	
+
 	def __call__(self, n):
 		return self._fib(n)
-	
+
 	def _fib(self, n):
 		if n in self._cache.keys():
 			return self._cache[n]
@@ -72,7 +65,7 @@ def memoize(f):
 			cache[args] = f(*args)
 			return cache[args]
 	return decorated_function
-	
+
 
 @memoize
 def fibonacci(n):

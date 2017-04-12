@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-8282295125306685",
-    enable_page_level_ads: true
-  });
-</script>
     <title>How to make truly private attributes in Python objects</title>
     <link rel="stylesheet" href="../libs/highlight/styles/default.css">
     <script src="../libs/highlight/highlight.pack.js"></script>
@@ -37,7 +30,7 @@ class User:
 
 </code></pre>
 
-<p>Actually, I wouldn't do it like this, I would use a function. Here you can see that _gen_hash (the function that generates the hash) is also unaccessible. It makes the algorithm used to do hashing also unaccessible. Now how I would use this class:</p> 
+<p>Actually, I wouldn't do it like this, I would use a function. Here you can see that _gen_hash (the function that generates the hash) is also unaccessible. It makes the algorithm used to do hashing also unaccessible. Now how I would use this class:</p>
 
 <pre><code class="python">
 user1 = User(username="ezerfernandes", password="abacadabra")
