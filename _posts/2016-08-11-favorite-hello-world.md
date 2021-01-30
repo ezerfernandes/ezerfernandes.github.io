@@ -10,30 +10,31 @@ As an example, here are some implementations of the fibonacci algorithm, in Pyth
 
 ### A recursive implementation. Performance is O(2<sup>N</sup>), horrible, but it's the clearer implementation:
 
-<pre><code class="python">
+```python
 def fibonacci(n):
 	if n == 0 or n == 1:
 		return n
 	else:
 		return fibonacci(n - 1) + fibonacci(n - 2)
-</code></pre>
+```
 
 The recursive implementation is simply a transcription of the mathematical definition. I like to start with the simplest implementation to getting acquainted with the language.
 
 ### An iterative implementation. Better performance, O(N), and it's yet a simple implementation:
 
-<pre><code class="python">
+```python
 def fibonacci(n):
 	elem1, elem2 = (0, 1)
 	for i in range(n):
 		elem1, elem2 = (elem2, elem1 + elem2)
 	return elem1
-</code></pre>
+```
 
 It would be possible not to calculate elem2 (one element ahead of the needed), but I think it's good enough.
 
 ### Fibonacci with memoization, using a class (Performance is O(N) but can be close to the performance of getting a dictionary item, O(1), if it's used several times to generate the elements of the fibonacci series):</h4>
-<pre><code class="python">
+
+```python
 class Fibonacci(object):
 	_cache = { 0: 0, 1: 1 }
 
@@ -48,13 +49,13 @@ class Fibonacci(object):
 			return self._cache[n]
 
 fibonacci = Fibonacci()
-</code></pre>
+```
 
 The object 'fibonacci' can be used as a normal function, but it saves the results in a dictionary, so that when it's called again, it checks if the result is already calculated and returns it, instead of calculating it again.
 
 ### Fibonacci using a decorator for memoization. It has the same performance characteristics of the last example, with the advantage of being easier to read and being easier to reuse the memoization function:
 
-<pre><code class="python">
+```python
 def memoize(f):
 	cache = {}
 	def decorated_function(*args):
@@ -72,7 +73,7 @@ def fibonacci(n):
 		return n
 	else:
 		return fibonacci(n - 1) + fibonacci(n - 2)
-</code></pre>
+```
 
 It's a better implementation than the last one, because it allows us to use the first example (the clearer one) for fibonacci while having a great performance and keeping the concepts orthogonal, that is, we have completely separate implementations for fibonacci and for memoization. You could call it aspect oriented programming.
 
