@@ -38,5 +38,5 @@ def some_foreign_code(user, pwd):
         print("You're not authorized. Try again")
 
 some_foreign_code(user1, "foobar") # WRONG PASSWORD!
-some_foreign_code(user1, "abacadabra") # RIGHT!
+some_foreign_code(user1, "abracadabra") # RIGHT!
 ```
