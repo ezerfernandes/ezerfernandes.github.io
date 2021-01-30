@@ -8,7 +8,7 @@ A colleague, coming from C#, asked me, *"how can you make an attribute truly pri
 
 I thought of a case where it could be necessary: Imagine you want to create an user object, with username and password, and you want to be able to check if a password is valid, but you do want it to be unaccessible (maybe you'll pass this object to another program which code you don't control.) That's how I would do it:
 
-<pre><code class="python">
+```python
 import hashlib
 
 
@@ -22,12 +22,11 @@ class User:
             '''Check if the password is correct'''
             return hash == _gen_hash(password)
         self.check_password = _check_password
-
-</code></pre>
+```
 
 Actually, I wouldn't do it like this, I would use a function. Here you can see that _gen_hash (the function that generates the hash) is also unaccessible. It makes the algorithm used to do hashing also unaccessible. Now how I would use this class:
 
-<pre><code class="python">
+```python
 user1 = User(username="ezerfernandes", password="abracadabra")
 
 def some_foreign_code(user, pwd):
@@ -40,5 +39,4 @@ def some_foreign_code(user, pwd):
 
 some_foreign_code(user1, "foobar") # WRONG PASSWORD!
 some_foreign_code(user1, "abacadabra") # RIGHT!
-
-</code></pre>
+```
