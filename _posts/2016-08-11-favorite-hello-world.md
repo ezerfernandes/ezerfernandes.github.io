@@ -4,7 +4,7 @@ title: "Favorite algorithmns to 'hello world' a language"
 date: 2016-08-11
 ---
 
-I think the best algorithms to try on a new language must be simple, well understood and quickly implementable. The algorithms I always try on a new language are **factorial** and **fibonacci**. I like to implement them in several different ways, with different performances so I can explore the power and expressiveness of that language.</p>
+I think the best algorithms to try on a new language must be simple, well understood and quickly implementable. The algorithms I always try on a new language are **factorial** and **fibonacci**. I like to implement them in several different ways, with different performances so I can explore the power and expressiveness of that language.
 
 As an example, here are some implementations of the fibonacci algorithm, in Python.
 
