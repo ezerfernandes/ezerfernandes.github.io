@@ -31,3 +31,9 @@ The chart is showing a balance sheet in Portuguese, but I think this illustrates
 Another exciting possibility is to use a waterfall chart to show how each account contributes to a balance sheet or to a income statement. We are focused here on the balance sheet, so let's show one possibility:
 
 {% include image.html url="/images/balance_sheet_as_waterfall_chart.png" description="An example of a balance sheet shown as a waterfall chart" size="80%" %}
+
+First I organized the accounts by type (Asset or Liability) and I sorted it in decreasing order by value, so that it looks like a montain. Last but not least, the last bar shows if there is error in the balance sheet, since Assets + Liabilities + Capital must be equal zero.
+
+### Conclusion
+
+These are just some examples to illustrate how to use some visualizations in unusual ways to gain insight into a company's financial statements. I think people shouldn't underestimate the importance of the right data visualization when conveying information and trying to gain insights.
