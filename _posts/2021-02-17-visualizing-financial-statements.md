@@ -11,4 +11,4 @@ Studies starting in 1984 with [William S. Cleveland and Robert McGill](https://w
 ![](https://knowablemagazine.org/do/10.1146/knowable-110919-1/feature/media/G-01-visual-ranking.svg)
 
 
-{% include image.html url="/images/sankey_balance_sheet.png" description="Showing a balance sheet as a Sankey diagram" size="40%" %}
+{% include image.html url="/images/sankey_balance_sheet.png" description="Showing a balance sheet as a Sankey diagram." size="80%" %}
