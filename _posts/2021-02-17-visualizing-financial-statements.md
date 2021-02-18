@@ -20,11 +20,11 @@ A balance sheet shows a company's assets, liabilities and shareholders' equity a
 
 A sankey diagram is usually used to display flows from one set of values to another so that they show a many-to-many mapping between domains.
 
-Well, if you look at a balance sheet, you'll see the accounts can be composed of sub-accounts. In the first level, the balance sheet can be divided as Assets, Liabilities and Capital. In the second level, Asset can be divided as Current Assets, Long-Term Assets and so on. If you consider every level a set of values (accounts), you can show how the accounts are sub-divided into sub-accounts and its relation to the total value. Well, better shown than said:
+If you look at a balance sheet, you'll see that accounts can be decomposed into sub-accounts. At the first level, the balance sheet can be divided as Assets, Liabilities and Equity. At the second level, Assets can be divided into Current Assets, Long-Term Assets and so on. If you consider that every level in the balance sheet is a set of values (accounts), you can show how the accounts are sub-divided into sub-accounts and its relation to the total value. Well, it's better to show it:
 
 {% include image.html url="/images/sankey_balance_sheet.png" description="Showing a balance sheet as a Sankey diagram." size="80%" %}
 
-The chart is showing a balance sheet in Portuguese, but I think this illustrates the point of an unusual use of a chart to show the relationship between accounts and sub-accounts in very intuitive way.
+The chart is showing a balance sheet in Portuguese, but I think this illustrates the point of an unusual use of a chart to show the relationship between accounts and sub-accounts in a very intuitive way.
 
 ### Waterfall Chart
 
@@ -32,8 +32,8 @@ Another exciting possibility is to use a waterfall chart to show how each accoun
 
 {% include image.html url="/images/balance_sheet_as_waterfall_chart.png" description="An example of a balance sheet shown as a waterfall chart" size="80%" %}
 
-First I organized the accounts by type (Asset or Liability) and I sorted it in decreasing order by value, so that it looks like a montain. Last but not least, the last bar shows if there is error in the balance sheet, since Assets + Liabilities + Capital must be equal zero.
+First I organized the accounts by type (Assets, Liabilities and Equity) and I sorted it in decreasing order by value, so that it looks a bit like a parabola. Last but not least, the last bar shows if there is error in the balance sheet, since Assets + Liabilities + Equity should be equal to zero.
 
 ### Conclusion
 
-These are just some examples to illustrate how to use some visualizations in unusual ways to gain insight into a company's financial statements. I think people shouldn't underestimate the importance of the right data visualization when conveying information and trying to gain insights.
+These are just some examples to illustrate how to use some visualizations in unusual ways to gain insight into a company's financial statements. I think we shouldn't underestimate the importance of the right data visualization when conveying information and trying to gain new insights into a company's financial situation.
