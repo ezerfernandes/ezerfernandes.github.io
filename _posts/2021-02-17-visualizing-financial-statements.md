@@ -34,6 +34,6 @@ Another exciting possibility is to use a waterfall chart to show how each accoun
 
 First I organized the accounts by type (Assets, Liabilities and Equity) and I sorted it in decreasing order by value, so that it looks a bit like a parabola. Last but not least, the last bar shows if there is error in the balance sheet, since Assets + Liabilities + Equity should be equal to zero.
 
-### Conclusion
+## Conclusion
 
 These are just some examples to illustrate how to use some visualizations in unusual ways to gain insight into a company's financial statements. I think we shouldn't underestimate the importance of the right data visualization when conveying information and trying to gain new insights into a company's financial situation.
