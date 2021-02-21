@@ -2,3 +2,4 @@ I was playing a little bit with a DSGE model. I thought it would be a nice exerc
 
 Well, as I said, I'm not an economist, but I have contact with Finance and Economics on my day job. So I thought it would be a nice exercise to play with a DSGE model to gain familiarity with it. One great package that allows you to create your own DSGE model is [DSGE.jl](https://frbny-dsge.github.io/DSGE.jl/), [created by the FED of New York](https://libertystreeteconomics.newyorkfed.org/2015/12/the-frbny-dsge-model-meets-julia.html) for the Julia language. I think it is a fortunate language choice, because Julia is a great programming language: it is very easy to learn (it looks a lot like Python) but it is very fast. So it's kind of like Python when programming and like C when running.
 
+First of all, you should start with a hello world. After installing Julia and the packages needed like DSGE and FredData (to get data from the FED), I started playing aroung with some models:
