@@ -4,6 +4,9 @@ title: "Functional programming with Lua"
 date: 2017-02-18
 ---
 
+[[2016-08-11-favorite-hello-world]]
+
+
 Lua is a fun language. It is used for embedded scripts, like games etc. It is also fast and it is easy to integrate C modules into it. One fun fact: it was created because there were trade restrictions for software in Brazil at the time, so instead of "importing" software, they created their own language. Crazy right?
 
 I created [FunkMoon](https://github.com/ezerfernandes/funkmoon) (Lua means Moon in Portuguese) more as an exercise of implementing a functional style of programming in Lua. It is a collection of functions that allows you to code in a functional style. You can use it as standalone functions, like:
