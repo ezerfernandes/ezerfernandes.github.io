@@ -1,5 +1,5 @@
 name: Ezer's Simple Page
-permalink: /blog/:title
+permalink: /page/:title
 
 markdown: kramdown
 highlighter: rouge
