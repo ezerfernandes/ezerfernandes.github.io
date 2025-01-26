@@ -1,4 +1,4 @@
-name: Ezer's Simple Page
+name: Ezer's Page
 permalink: /page/:title
 
 markdown: kramdown
